@@ -24,7 +24,7 @@
   <a href="https://arxiv.org/abs/2502.08377" target='_blank'>
     <img src="http://img.shields.io/badge/arXiv-2503.20785-b31b1b?logo=arxiv&logoColor=b31b1b" alt="ArXiv">
   </a>
-  <a href="https://ds4d.github.io/" target='_blank'>
+  <a href="https://github.com/LiyingCV/DS4D" target='_blank'>
     <img src="https://img.shields.io/badge/Project-Page-red?logo=googlechrome&logoColor=red">
   </a>
   
