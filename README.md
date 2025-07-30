@@ -1,4 +1,4 @@
-## ***Not all frame features are equal: Video-to-4d generation via decoupling dynamic-static features***
+## ***Not all Frame Features are Equal: Video-to-4d Generation via Decoupling Dynamic-static Features***
 
 <div>
 <div align="center">
