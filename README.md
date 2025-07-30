@@ -32,6 +32,12 @@
     ICCV Highlight🔥
 </div>
 
+<div style="text-align:center">
+<img src="assets/pipeline.png"  width="100%" height="100%">
+</div>
+
+
+
 
 ## 🛠️ The project page and core codes will be released soon
 
