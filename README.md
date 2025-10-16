@@ -47,10 +47,12 @@
 If you find our work useful for your research, please consider citing our paper:
 
 ```
- @article{yang2025not,
-  title={Not all frame features are equal: Video-to-4d generation via decoupling dynamic-static features},
-  author={Yang, Liying and Liu, Chen and Zhu, Zhenwei and Liu, Ajian and Ma, Hui and Nong, Jian and Liang, Yanyan},
-  journal={arXiv preprint arXiv:2502.08377},
-  year={2025}
+@InProceedings{Yang_2025_ICCV,
+    author    = {Yang, Liying and Liu, Chen and Zhu, Zhenwei and Liu, Ajian and Ma, Hui and Nong, Jian and Liang, Yanyan},
+    title     = {Not All Frame Features Are Equal: Video-to-4D Generation via Decoupling Dynamic-Static Features},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {7494-7504}
 }
 ```
