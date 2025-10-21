@@ -56,11 +56,18 @@ conda env create -f environment.yml
 conda activate ds4d
 ```
 
-Then install Gaussian splatting and simple-knn
+Install Gaussian splatting and simple-knn
 ```
 pip install ./diff-gaussian-rasterization
 pip install ./simple-knn
 ```
+
+Install pointnet2_ops
+```
+cd tgs/models/snowflake/pointnet2_ops_lib && python setup.py install && cd -
+```
+
+Install [PyTorch3D](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md)
 
 ### Prepare data
 Before starting training, we first use [InstantMesh](https://github.com/TencentARC/InstantMesh) to reconstruct the 3D object of the middle frame. For more details about how to reconstruct, please refer to InstantMesh. Then, we need to scale and rotate the 3D object to fit Gaussian splatting. By the way, we can also use other 3D reconstruction models or 3D generation models to produce the 3D object, while we use InstantMesh in the paper.
