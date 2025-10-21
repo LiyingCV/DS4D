@@ -36,7 +36,9 @@
 <img src="assets/pipeline.png"  width="100%" height="100%">
 </div>
 
+## Example
 
+<img src="./assets/object.gif" width="1000"/> 
 
 
 ## 🛠️ The project page and core codes will be released soon
