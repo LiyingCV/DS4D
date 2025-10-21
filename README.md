@@ -42,7 +42,19 @@
 
 
 ## 🛠️ The codes and datasets will be released after we clean down
+## Installation
+The environment was tested on NVIDIA 4090, A100, A10, 3090, and Tesla V100. 
 
+Clone the code repository
+```
+git clone https://github.com/LiyingCV/DS4D.git
+```
+
+Create a new environment from ```environment.yml```
+```
+conda env create -f environment.yml
+conda activate ds4d
+```
 
 
 ## 📚 Citation
