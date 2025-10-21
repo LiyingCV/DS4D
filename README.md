@@ -41,7 +41,7 @@
 <img src="./assets/object.gif" width="1000"/> 
 
 
-## 🛠️ The project page and core codes will be released soon
+## 🛠️ The codes and datasets will be released after we clean down
 
 
 
