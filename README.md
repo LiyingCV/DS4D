@@ -42,7 +42,7 @@
 
 
 ## 🛠️ The codes and datasets will be released after we clean down
-## Installation
+### Installation
 The environment was tested on NVIDIA 4090, A100, A10, 3090, and Tesla V100. 
 
 Clone the code repository
@@ -56,7 +56,21 @@ conda env create -f environment.yml
 conda activate ds4d
 ```
 
+Then install Gaussian splatting and simple-knn
+```
+pip install ./diff-gaussian-rasterization
+pip install ./simple-knn
+```
 
+### Prepare data
+Before starting training, we first use [InstantMesh](https://github.com/TencentARC/InstantMesh) to reconstruct the 3D object of the middle frame. For more details about how to reconstruct, please refer to InstantMesh. Then, we need to scale and rotate the 3D object to fit Gaussian splatting. By the way, we can also use other 3D reconstruction models or 3D generation models to produce the 3D object, while we use InstantMesh in the paper.
+
+
+### Training
+During trainig, the code will produce the result of 360° video and front/back/left/right video.
+```
+python runner.py --config /path/to/config/ --item /the/name/of/item/
+```
 ## 📚 Citation
 If you find our work useful for your research, please consider citing our paper:
 
